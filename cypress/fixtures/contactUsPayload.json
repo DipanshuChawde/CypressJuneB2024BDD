@@ -1,0 +1,20 @@
+[
+    {
+        "fn" : "dipanshu",
+        "ln" : "chawde",
+        "em" : "dipanshu@gmail.com",
+        "msg" : "cypress"
+    },
+    {
+        "fn" : "Aditya",
+        "ln" : "masalkar",
+        "em" : "aditya@gmail.com",
+        "msg" : "playwright"
+    },
+    {
+        "fn" : "rucha",
+        "ln" : "gaware",
+        "em" : "rucha@gmail.com",
+        "msg" : "sql"
+    }
+]

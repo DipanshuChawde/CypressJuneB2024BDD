@@ -5,7 +5,7 @@ Feature: I want to verify web driver university contact us page
         When I enter data for all fields
         And I click on submit button
         Then I verify validation message
-
+@focus
     Scenario: I want to verify for datatable
         Given I navigate to web page
         When I enter data from data table for all fields

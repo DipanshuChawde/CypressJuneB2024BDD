@@ -8,7 +8,7 @@ Feature: verify add to cart functionality
         And i proceed to check out
         Then i validate checkout page
 
-
+@focus
     Scenario Outline: verify add to cart functionality for multiple products
         Given Navigate to web page
         When i type <SearchBxIp> in search box click on search box

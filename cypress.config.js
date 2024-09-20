@@ -1,6 +1,11 @@
 const { defineConfig } = require("cypress");
 const cucumber = require("cypress-cucumber-preprocessor").default; //this
 module.exports = defineConfig({
+
+  env:{
+    "TAGS" : "@focus"
+  },
+
   e2e: {
     specPattern: "**/*.feature", //this
     setupNodeEvents(on, config) {
